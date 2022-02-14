@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.row {
+  gap: 1fr;
+  grid-auto-flow: row;
+  grid-template-columns: 30% 30% 30%;;
+}
+
+
+.boxed-btn3 {
+  background: #1EC6B6;
+  color: #fff;
+  display: inline-block;
+  padding: 18px 41px;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: 0;
+  border: 1px solid #1EC6B6;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff !important;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+
+
